@@ -35,6 +35,27 @@
     <link rel="stylesheet" href="assets/css/app.min.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            bottom: 90px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 999;
+        }
+
+        .whatsapp-float i {
+            color: white;
+            font-size: 30px;
+        }
+    </style>
 </head>
 
 <body class="body-shape">
@@ -345,7 +366,12 @@
             <div class="fade-in"></div>
             <div class="fade-out"></div>
         </div>
-    </footer>
+        </footer>
+
+    <a href="https://wa.me/YOUR_NUMBER?text=Hi!%20Ruchir%20Hospitals,%20I%20need%20your%20assistence"
+        class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
